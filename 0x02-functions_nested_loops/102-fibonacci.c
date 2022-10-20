@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 
 /**
@@ -29,10 +28,3 @@ int main(void)
 
 	return (0);
 }
-    
-@@ -29,4 +29,5 @@ void print_times_table(int n);
-
-int main(void) 
-
-int main(void)  
-#
