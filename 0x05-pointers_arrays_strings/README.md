@@ -1,2 +1,1 @@
- 9-strcpy.c
-echo  9-strcpy.c
+100-atoi.c
