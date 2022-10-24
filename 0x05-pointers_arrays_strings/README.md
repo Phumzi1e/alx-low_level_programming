@@ -1,1 +1,2 @@
-8-print_array.c
+ 9-strcpy.c
+echo  9-strcpy.c
