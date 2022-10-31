@@ -1,28 +1,34 @@
 #include "main.h"
 /**
- * rev_string - reverses a string
- * _putchar - print each character
- * @s: char to check
- * Description: This will reverse a string
- * Return: 0
- */
-void rev_string(char *s)
+* _strstr - locates a substring
+* @haystack: the longer string to search
+* @needle: the first occurrence of the substring
+* Return: a pointer beg of substring or @Null if it not foound.
+*/
+char *_strstr(char *haystack, char *needle)
 {
-	int a = 0, b, c;
-	char d;
+	unsigned int i = 0, j = 0;
 
-	while (s[a] != '\0')
-
+	while (haystack[i])
 	{
-		a++;
+		while (needle[j] && (haystack[i] == needle[0]))
+		{
+			if (haystack[i + j] == needle[j])
+				j++;
+			else
+				break;
+		}
+		if (needle[j])
+		{
+			i++;
+			j = 0;
+		}
+		else
+			return (haystack + i);
 	}
-	c = a - 1;
-	for (b = 0; c >= 0 && b < c; c--, b++)
-	{
-		d = s[b];
-		s[b] = s[c];
-		s[c] = d;
-	}
+	return (0);
 }
+
+
 
 
