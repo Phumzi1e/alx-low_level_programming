@@ -3,7 +3,7 @@
 * main - adds positive numbers. * @argc: argument count * @argv: arguments
 * Return: 0
 */
-int main(int argc, char **argv)
+int main(int argv, char **argc)
 {
 int i, n, sum = 0;
 char *flag;
