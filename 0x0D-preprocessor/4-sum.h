@@ -2,8 +2,8 @@
 #define SUM_H
 
 /*
- * JIGJIGA, ETHIOPIA
- * Auth: Ismail Mohamed Ismail
+ * Pretoria,South Africa
+ * Auth: Phumzile Miec Vuma
  * Desc: Header file that defines a function-like macro SUM(x, y)
  *       that computes the sum of the numbers x and y.
  */
